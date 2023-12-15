@@ -12,7 +12,7 @@ function shakeMagic8Ball() {
         alert('Please enter a valid question')
         return
     }
-    const randomNumber = Math.floor(math.random()*8);
+    const randomNumber = Math.floor(Math.random()*8);
     let answer,image,color;
 
     switch(randomNumber){
@@ -53,6 +53,11 @@ function shakeMagic8Ball() {
             break
     }
     
+const responseText = document.getElementById('response-text');
+responseText.innerText = answer;
+responseText.classList = `display-4 ${color}`
+document.getElementById('response-image').src= image;
+
 
 
 }
