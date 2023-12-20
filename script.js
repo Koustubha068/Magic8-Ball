@@ -27,13 +27,13 @@ function shakeMagic8Ball() {
             color ="text-secondary"
             break
         case 2:
-            answer="No"
-            image = "no-image.jpg"//change this****
+            answer="Definetly Not!"
+            image = "Definetly Not!.png"//change this****
             color ="text-secondary"
             break
         case 3:
             answer="Maybe"
-            image = "Maybe-imgage.jpg"//change this****
+            image = "maybe.png"//change this****
             color ="text-warning"
             break
         case 4:
