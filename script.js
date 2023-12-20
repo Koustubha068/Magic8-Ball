@@ -4,7 +4,7 @@ function shakeMagic8Ball() {
     if (question === null) {
         document.getElementById('response-text').innerText = 'U MUST ASK A QUESTION!'
         document.getElementById('response-text').classList = 'text-danger'
-        document.getElementById('response-image').src = '#BAD/BROKENIMAGE' //fix this later
+        document.getElementById('response-image').src = 'quote.png' //fix this later
         return
     }
 
@@ -18,10 +18,15 @@ function shakeMagic8Ball() {
     switch(randomNumber){
         case 0:
             answer="Yes"
-            image = "yes-image.jpg"//change this****
+            image = "Yes.png"
             color ="text-success"
             break
         case 1:
+            answer="No"
+            image = "No.png"
+            color ="text-secondary"
+            break
+        case 2:
             answer="No"
             image = "no-image.jpg"//change this****
             color ="text-secondary"
@@ -33,22 +38,22 @@ function shakeMagic8Ball() {
             break
         case 4:
             answer="Ask Again"
-            image = "Ask-Again-image.jpg"//change this****
+            image = "Ask Again Later.png"
             color ="text-muted"
             break
         case 5:
-            answer="Don't Count on It"
-            image = "Don't-count-on-it-image.jpg"//change this****
+            answer="Better Not Tell You Now"
+            image = "Better Not Tell You Now.png"
             color ="text-danger"
             break
         case 6:
             answer="Most Likely"
-            image = "Most-Likely-image.jpg"//change this****
+            image = "Most Likely.png"
             color ="text-primary"
             break
         case 7:    
-            answer="Definitely NOT!"
-            image = "Definetly-not-image.jpg"//change this****
+            answer="Signs Point to Yes"
+            image = "signs point to yes.png"
             color ="text-danger"
             break
     }

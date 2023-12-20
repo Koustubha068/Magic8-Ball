@@ -10,5 +10,32 @@ body{
     box-shadow: 10px 5px 5px rgba(204, 203, 203, 0.4);
 }
 .lead{
-    font-family:
+font-family: "sweet-square-pro", sans-serif;
+font-weight: 600;
+font-style: normal;
+color:#D3D3D3;
+}
+.shake{
+font-family: "sweet-square-pro", sans-serif;
+font-weight: 500;
+font-style: normal;
+color:#313130;
+background:#D3D3D3;
+border:2px;
+}
+.shake:hover{
+    background:#1508A6;
+    color:#D3D3D3;
+}
+.title{
+    font-family: "sweet-square-pro", sans-serif;
+font-weight: 900;
+font-style: normal;
+color:#D3D3D3;
+}
+.text{
+    color:#D3D3D3;
+}
+.bg-light{
+    background-image:linear-gradient(#81888A,#D3D3D3);
 }
