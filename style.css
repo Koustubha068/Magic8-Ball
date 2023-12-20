@@ -1,0 +1,14 @@
+body{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:#15214C;
+    width:100%;
+}
+.img-fluid{
+    border-radius:7px;
+    border: 4px solid rgba(243, 243, 242, 0.5);
+    box-shadow: 10px 5px 5px rgba(204, 203, 203, 0.4);
+}
+.lead{
+    font-family:
+}
