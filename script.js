@@ -18,42 +18,42 @@ function shakeMagic8Ball() {
     switch(randomNumber){
         case 0:
             answer="Yes"
-            image = "Yes.png"
+            image = "Yess.png"
             color ="text-success"
             break
         case 1:
             answer="No"
-            image = "No.png"
+            image = "Noo.png"
             color ="text-secondary"
             break
         case 2:
             answer="Definetly Not!"
-            image = "Definetly Not!.png"//change this****
+            image = "Definetly Not!.png"
             color ="text-secondary"
             break
         case 3:
             answer="Maybe"
-            image = "maybe.png"//change this****
+            image = "maybe.png"
             color ="text-warning"
             break
         case 4:
             answer="Ask Again"
-            image = "Ask Again Later.png"
+            image = "AskAgain.png"
             color ="text-muted"
             break
         case 5:
             answer="Better Not Tell You Now"
-            image = "Better Not Tell You Now.png"
+            image = "BetterNotTell.png"
             color ="text-danger"
             break
         case 6:
             answer="Most Likely"
-            image = "Most Likely.png"
+            image = "MostLikely.png"
             color ="text-primary"
             break
         case 7:    
             answer="Signs Point to Yes"
-            image = "signs point to yes.png"
+            image = "Point to yes.png"
             color ="text-danger"
             break
     }
